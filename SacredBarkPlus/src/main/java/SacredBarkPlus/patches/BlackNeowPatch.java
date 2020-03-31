@@ -32,7 +32,7 @@ public class BlackNeowPatch {
     public static class DiffText {
         @SpirePrefixPatch
         public static SpireReturn<Void> patch(NeowEvent __instance, String msg) {
-            String[] tmp = {"~You~ ~are~ ~the~ ~Extinction~ ~Entity...~", "I'm ~Stranded~ at your ~Beach~ ...", "I'm the ~Beached~ whale...", "You son of a ~Beach~ ...", "~The~ ~first~ ~Strand-type~ ~Spire...~", "~And~ ~I~ ~Would~ ~Walk~ ~500~ ~Miles~", "I'm ~Fragile~ but I'm not ~that~ fragile...", "You're my Princess ~Beach~ ..."};
+            String[] tmp = {"~You~ ~are~ ~the~ ~Extinction~ ~Entity...~", "I'm ~Stranded~ at your ~Beach~ ...", "I'm the ~Beached~ whale...", "You son of a @Beach@ ...", "~The~ ~first~ @Strand-type@ ~Spire...~", "~And~ ~I~ ~Would~ ~Walk~ ~500~ ~Miles~", "I'm @Fragile@ but I'm not ~that~ @fragile...@", "You're my Princess @Beach@ ...", "@YOU'RE@ @DAMAGED@ @GOODS!@"};
             AbstractDungeon.effectList.add(new InfiniteSpeechBubble((float)ReflectionHacks.getPrivateStatic(NeowEvent.class, "DIALOG_X"), (float)ReflectionHacks.getPrivateStatic(NeowEvent.class, "DIALOG_Y"), tmp[MathUtils.random(0, tmp.length - 1)]));
             return SpireReturn.Return(null);
         }
