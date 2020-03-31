@@ -1,8 +1,8 @@
 {
-  "modid": "BetterSilentStart",
-  "name": "Better Silent Start",
+  "modid": "SpireStranding",
+  "name": "Spire Stranding",
   "author_list": ["erasels"],
-  "description": "Changes the Silent starter relic and deck to be less bad, I guess.",
+  "description": "The second Strand-type game, Americans are sure to not understand it.",
   "version": "1.0.0",
   "sts_version": "01-02-2019",
   "mts_version": "3.8.3",
