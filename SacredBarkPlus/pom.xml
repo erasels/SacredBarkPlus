@@ -4,10 +4,10 @@
     <!--Hello! You'll basically should only need to change these names and the steam path (just below)-->
     <!--The author name(s) as they appear in MTS and any other comments are in your ModTheSpire.json-->
     <groupId>UpdateBodyText</groupId>
-    <artifactId>BetterSilentStart</artifactId>
-    <name>Balanced Silent Start</name>
+    <artifactId>NodeSpeaker</artifactId>
+    <name>Node Speaker</name>
     <version>1.0.0</version>
-    <description>Changes the Silent starter relic and deck to be less bad, I guess.</description>
+    <description>Says the node name when hovering over a node you can travel to.</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
