@@ -1,8 +1,8 @@
 {
-  "modid": "SacredBarkPlus",
-  "name": "SacredBarkPlus",
+  "modid": "RemoveKeywords",
+  "name": "Remove Keywords",
   "author_list": ["erasels"],
-  "description": "Makes Sacred Bark interact with all potions.",
+  "description": "Removes keywords.",
   "version": "1.0.0",
   "sts_version": "01-02-2019",
   "mts_version": "3.8.3",
