@@ -4,8 +4,8 @@
     <!--Hello! You'll basically should only need to change these names and the steam path (just below)-->
     <!--The author name(s) as they appear in MTS and any other comments are in your ModTheSpire.json-->
     <groupId>UpdateBodyText</groupId>
-    <artifactId>weightGain</artifactId>
-    <name>Weight Watchers</name>
+    <artifactId>uwuifier</artifactId>
+    <name>UwU-ifier</name>
     <version>1.0.0</version>
     <description>Feed makes you fat. Fasting makes you thin.</description>
 
